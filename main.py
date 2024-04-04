@@ -7,7 +7,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Read data from SQL Server table
-jdbc_url = "jdbc:sqlserver://your_server:1433;databaseName=your_database"
+jdbc_url = "jdbc:sqlserver://your_server:1433;databaseName=database"
 properties = {
     "user": "username",
     "password": "password",
